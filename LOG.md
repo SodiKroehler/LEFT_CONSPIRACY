@@ -13,7 +13,9 @@ register is recognizable in the output.
 **Next:** Single-sub + single-year is too narrow for the comparative
 left/right goal. Expand to a multi-sub, multi-year pull. 
 
-**Files:** `notebooks/sodi/ex_s_01_first_reddit_pull`, outputs in same dir.
+**Files:** `notebooks/sodi/ex_s_01_first_reddit_pull`,
+- lda_vis.html - interactive lda analysis of 1k sampled comments
+- eda_v1 - super quick preliminary eda on both
 
 ---
 
@@ -31,4 +33,9 @@ per sub. Generated wordcloud over the pooled sample.
 
 **Next:** [in progress — wordcloud only so far]
 
-**Files:** `notebooks/sodi/[path]/`, sample at `data/[path]`.
+**Files:** `notebooks/sodi/ex_s_02_2025_reddit_pull`
+- eda_v1 - super quick preliminary eda on both
+- wordcloud.png
+- raw/all_subrs_3000sample.csv - 3k from each of the subreddits, sampled from submissions, weighted according to the number of comments on that post
+
+**Notes:** had to replace some in the csv that were triggering githubs credential recognizer. could be an issue later.
